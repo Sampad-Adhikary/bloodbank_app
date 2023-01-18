@@ -1,8 +1,20 @@
+import 'package:bloodbank_app/screen/hello.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp((MaterialApp(
-    title: 'Blood Bank App',
-    home: Scaffold(),
-  )));
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    // ignore: prefer_const_constructors
+    return MaterialApp(
+      title: 'Bllood Bank App',
+      home: const MyHomePage(),
+    );
+  }
 }
