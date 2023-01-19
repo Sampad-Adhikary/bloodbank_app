@@ -1,5 +1,5 @@
 // import 'package:bloodbank_app/screens/OnboardingScreen.dart';
-import 'package:bloodbank_app/screens/hello.dart';
+import 'package:bloodbank_app/screen/MySplashScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     // ignore: prefer_const_constructors
     return MaterialApp(
       title: 'Blood Bank App',
-      home: const MyHomePage(),
+      home: MySplashScreen(),
     );
   }
 }
