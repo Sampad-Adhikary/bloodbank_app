@@ -1,4 +1,5 @@
-import 'package:bloodbank_app/screen/hello.dart';
+// import 'package:bloodbank_app/screens/OnboardingScreen.dart';
+import 'package:bloodbank_app/screens/hello.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -8,12 +9,11 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     // ignore: prefer_const_constructors
     return MaterialApp(
-      title: 'Bllood Bank App',
+      title: 'Blood Bank App',
       home: const MyHomePage(),
     );
   }
