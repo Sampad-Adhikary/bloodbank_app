@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     // ignore: prefer_const_constructors
     return MaterialApp(
       title: 'Blood Bank App',
-      home: MySplashScreen(),
+      home: const MySplashScreen(),
     );
   }
 }
